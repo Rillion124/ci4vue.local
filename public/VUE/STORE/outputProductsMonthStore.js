@@ -1,6 +1,6 @@
 const outputProductsMonthStore = {
     state:{
-        title:"NewTitleStore"
+        title:"NewTitleStore!!!!!"
     },
     actions:{
         

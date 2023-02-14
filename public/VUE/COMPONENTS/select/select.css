@@ -1,0 +1,14 @@
+.vc-select{
+    width: 200px;
+    height: 30px;
+    border-radius: 6px;
+    border: 1px solid red;
+}
+.vc-select-options{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: rebeccapurple;
+    top:35px;
+    border-radius: 6px;
+}
