@@ -2,7 +2,8 @@ const UsersPage = {
     name:`UsersPage`,
     template:`
     <div>
-        <vc-select listOptions=""></vc-select>
+        <vc-select>
+        </vc-select>
         <table>
             <thead>
                 <tr>

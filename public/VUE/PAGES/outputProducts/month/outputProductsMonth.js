@@ -2,6 +2,8 @@ const outputProductsMonth = {
     name:`outputProductsMonth`,
     template:`
     
-    <div>OutputProductMonth</div>
+    
+
+    <vc-calendar></vc-calendar>
     `
 };
