@@ -2,7 +2,10 @@ const UsersPage = {
     name:`UsersPage`,
     template:`
     <div>
-        <vc-select>
+        <vc-select
+            :options="['123', '456', '789', '9']"
+            :default="'123'"
+        >
         </vc-select>
         <table>
             <thead>
