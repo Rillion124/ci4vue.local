@@ -79,3 +79,9 @@
   .selectHide {
     display: none;
   }
+  .custom-select label {
+    width: 100%;
+  }
+  .items_container {
+    display: flex;
+  } 

@@ -3,8 +3,27 @@ const UsersPage = {
     template:`
     <div>
         <vc-select
-            :options="['123', '456', '789', '9']"
+            :options="[
+                {id: 1, title: 'Moscow'}, 
+                {id: 2, title: 'Krsk'}, 
+                {id: 3, title: 'Achinsk'}, 
+                {id: 4, title: 'Tayshet'}, 
+            ]"
             :default="'123'"
+            :isMiltiselect='true'
+            :nameSelect="'Выбрать город'"
+        >
+        </vc-select>
+        <vc-select
+            :options="[
+                {id: 1, title: 'Moscow'}, 
+                {id: 2, title: 'Krsk'}, 
+                {id: 3, title: 'Achinsk'}, 
+                {id: 4, title: 'Tayshet'}, 
+            ]"
+            :default="'123'"
+            :isMiltiselect='true'
+            :nameSelect="'В город'"
         >
         </vc-select>
         <table>

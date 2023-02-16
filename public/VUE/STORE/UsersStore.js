@@ -14,7 +14,6 @@ const UsersStore = {
     mutations:{
         changeUsersList(state, data){
             state.usersList = data;
-            console.log(state.usersList);
         }
     },
     getters:{

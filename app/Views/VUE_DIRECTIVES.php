@@ -1,0 +1,1 @@
+<script src="/public/VUE/DIRECTIVES/clickoutsides.js"></script>
