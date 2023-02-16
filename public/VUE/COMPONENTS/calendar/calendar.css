@@ -3,7 +3,7 @@
     margin-top: 20px;
     margin-left: 20px;
     width: 200px;
-    height: 30px;
+    height: 50px;
 }
 .vc-calendar-div-inputs{
     display:flex;
@@ -27,6 +27,12 @@
 }
 .ph{
     font-size: 12px;
+}
+.changerDate{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 .changeDate{
     border: 1px solid #ccc;
